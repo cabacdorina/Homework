@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class S {
     private static final S instance = new S();
 
-    private S() {}
+    public S() {}
 
     @Bean
     public static S getInstance() {

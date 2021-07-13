@@ -11,4 +11,8 @@ public class C {
     public C(D d) {
         this.d = d;
     }
+
+    public D getD() {
+        return d;
+    }
 }
